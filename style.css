@@ -1,9 +1,4 @@
-@font-face {
-    font-family: "TripSans";
-    src: url("./assets/fonts/trip-sans.otf") format("opentype");
-    font-weight: normal;
-    font-size: normal;
-  }
+
   
   * {
     margin: 0;
@@ -738,23 +733,27 @@
     }
   
     .advertisement-container {
+      padding: 10px;
+      margin: 10px;
       display: flex;
       justify-content: center;
-      margin-top: 80px;
       position: relative;
     }
   
     .advertisement-container img {
       border-radius: 20px;
+
     }
     .advertisement-content {
       display: flex;
       flex-direction: column;
       position: absolute;
-      width: 360px;
-      right: 290px;
+      width: 300px;
       top: 40px;
+      height: 60%;
+      left:60%;
     }
+   
     .advertisement-content p {
       display: flex;
       font-size: 14px;
@@ -771,21 +770,24 @@
     }
   
     .advertisement-content h1 {
-      font-size: 52px;
-      line-height: 1.1;
+      font-size: 30px;
     }
     .advertisement-content h2 {
       font-size: 32px;
-      margin-top: 10px;
+     
     }
     .advertisement-content button {
       background-color: black;
-      padding: 14px 24px;
+      display: flex;
+      padding: 10px;
+      gap: 10px;
+      margin-left: 2px;
+      margin-top: 10px;
       color: white;
-      border-radius: 30px;
+      border-radius: 50px;
       border: none;
-      width: 200px;
-      margin-top: 20px;
+      width: 60%;
+      height: 30px;
       cursor: pointer;
     }
     .advertisement-content button:hover {
